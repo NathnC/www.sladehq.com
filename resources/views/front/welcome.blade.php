@@ -47,6 +47,10 @@
     <div class="col-md-12 pt-25 pb-25">
         <img src="images/branding/slade_white.png" height="58.5" width="174">
     </div>
+
+
+
+    
 </div>
 
 <div class="container client-bio">
