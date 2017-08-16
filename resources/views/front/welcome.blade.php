@@ -43,14 +43,19 @@
     </div>
 </div>
 
-<div class="container client-list full-width pb-50 mb-100 mt-50">
-    <div class="col-md-12 pt-25 pb-25">
-        <img src="images/branding/slade_white.png" height="58.5" width="174">
+
+<div class="container client-list full-width pb-50 mb-100 mt-50 bg-purple">
+    <div class="col-md-12 pt-25 pb-25 text-center">
+        <div class="col-md-12 pb-25 pt-0">
+            <img src="images/branding/slade_white.png" width="174" height="58.5" alt="sladehq description">
+        </div>
+        <div class="col-md-6 col-md-offset-3">
+            <article class="font-stripe-thin">
+                    Parrot Creative is a contemporary web design and web development company in Sturminster Newton, creating fresh, mobile friendly and jargon-free websites.
+                    With sensible prices, a client-maintained system and Google optimised code, we offer our result-driven web services to businesses in Dorset and beyond - not that location matters.
+            </article>
+        </div>
     </div>
-
-
-
-    
 </div>
 
 <div class="container client-bio">
@@ -168,7 +173,7 @@
 
 <div class="container get-social full-width bg-purple pb-50">
     <div class="col-md-12">
-        <img src="images/branding/slade_white.png" height="58.5" width="174">
+        <img src="images/branding/slade_white.png" height="58.5" width="174" src="sladehq social network">
     </div>
     <div class="col-md-12 pt-15">
         <p class="text-white">Slade is a playful and fun brand that doesn't take itself too seriously. That said, we're keen on keeping things quality so you always get the best you can when it comes to digital designing and branding. Contact us, any time, any place and we'll get back to you. </p>

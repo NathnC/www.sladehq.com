@@ -43,7 +43,7 @@
 
 
 <div class="col-md-12 text-center pt-150">
-    <H1><img src="images/branding/slade_white.png"></H1>
+    <H1><img src="images/branding/slade_white.png" alt="sladehq white logo"></H1>
     <H1 class="font-stripe">Sorry, something didn't go quite right!</H1>
     <h2>{{ $exception->getMessage() }}</h2>
     <h3> <a href="{{ route('home') }}">Return Home <i class="fa fa-arrow-circle-right"></i></a></h3>

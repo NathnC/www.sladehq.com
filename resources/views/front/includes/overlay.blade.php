@@ -3,7 +3,7 @@
         <div class="container pt-100 pb-100">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <img src="images/branding/slade_purple.png">
+                    <img src="images/branding/slade_purple.png" class="sladehq logo">
                 </div>
                 <div class="col-lg-12">
                     <div class="text-center">

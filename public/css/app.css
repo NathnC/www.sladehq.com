@@ -746,8 +746,14 @@ footer {
 
 .client-list {
     padding: 25px;
-    background-color: #99a7b5;
 }
+
+.client-list article {
+    font-size: 17px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
 
 .get-social p {
     font-size: 16px;

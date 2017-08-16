@@ -45,7 +45,7 @@
         </div>
         <div class="col-md-2 logoSection">
             <a href="/">
-                <img src="images/branding/slade_purple.png" alt="sladehq"/>
+                <img src="images/branding/slade_purple.png" alt="sladehq purple footer logo"/>
             </a>
         </div>
         </div>
