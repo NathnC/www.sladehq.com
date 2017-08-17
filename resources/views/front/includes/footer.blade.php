@@ -55,7 +55,7 @@
             Copyright <i class="fa phpdebugbar-fa-copyright"></i> SladeHQ 2017
         </div>
         <div class="col-md-6 pull-right text-right">
-            <b>Designed & Built</b> with <i class="fa fa-heart text-darkpurple"></i> by <b>slade</b>
+            <b>Designed & Built</b> with <i class="fa fa-heart text-darkpurple"></i> by <b><a class="no-decoration" href="/">sladehq</a></b>
         </div>
     </div>
     <div class="bg-gradient-brand h-3">
