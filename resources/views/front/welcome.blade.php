@@ -44,15 +44,14 @@
 </div>
 
 
-<div class="container client-list full-width pb-50 mb-100 mt-50 bg-purple">
+<div class="container client-list full-width pb-50 mb-100 mt-50 bg-darkpurple">
     <div class="col-md-12 pt-25 pb-25 text-center">
         <div class="col-md-12 pb-25 pt-0">
             <img src="images/branding/slade_white.png" width="174" height="58.5" alt="sladehq description">
         </div>
         <div class="col-md-6 col-md-offset-3">
             <article class="font-stripe-thin">
-                    Parrot Creative is a contemporary web design and web development company in Sturminster Newton, creating fresh, mobile friendly and jargon-free websites.
-                    With sensible prices, a client-maintained system and Google optimised code, we offer our result-driven web services to businesses in Dorset and beyond - not that location matters.
+                Sladehq is a website and digital design company based in the United Kingdom, building modern, responsive and low cost websites and brands. You've built your brand, now it's time to brand it. With sensible prices we deliver high end resources to build your brand and keep it at it's game.
             </article>
         </div>
     </div>

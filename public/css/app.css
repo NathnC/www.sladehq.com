@@ -82,14 +82,19 @@
 .text-tester { color: #12CC94; }
 .text-reallydarkpurple { color: #626F92; }
 .text-slade { color: #2d3550; }
-.text-white { color: white; }
+.text-white { color: #ffffff; }
+.text-whiteish { color: #cccccc; }
 
 .bg-slade { background-color: #2d3550;  }
 .bg-whiteish { background-color: #f3f9f6; }
 .bg-white { background-color: white; }
 .bg-purple { background-color: #6772e5; }
+.bg-darkpurple { background-color: rgb(45, 53, 80); }
 
 
+.btn-darkpurple { background-color: rgb(45, 53, 80); border-color: rgb(45, 53, 80); color: white; }
+.btn-darkpurple:hover { border-color: white; background-color: rgb(45, 53, 80); color: white; }
+.btn-white { background-color: #ffffff; }
 
 
 .fw-900 { font-weight: 900; }
