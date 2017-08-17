@@ -44,15 +44,15 @@
 </div>
 
 
-<div class="container client-list full-width bg-purple">
+<div class="container client-list full-width bg-darkpurple">
     <div class="col-md-12 pt-25 pb-25 text-center">
         <div class="col-md-12 pb-25 pt-0">
             <img src="images/branding/slade_white.png" width="174" height="58.5" alt="sladehq description">
         </div>
         <div class="col-md-6 col-md-offset-3">
             <article class="font-stripe-thin">
-                    Parrot Creative is a contemporary web design and web development company in Sturminster Newton, creating fresh, mobile friendly and jargon-free websites.
-                    With sensible prices, a client-maintained system and Google optimised code, we offer our result-driven web services to businesses in Dorset and beyond - not that location matters.
+                    Sladehq is a website and digital design company based in the United Kingdom, building modern, responsive and low cost websites and brands.
+                    You've built your brand, now it's time to brand it. With sensible prices we deliver high end resources to build your brand and keep it at it's game.
             </article>
         </div>
     </div>
@@ -67,7 +67,7 @@
         <h3 class="fw-600 text-purple">CLIENTS COME FIRST</h3>
     </div>
     <p class="col-md-8 col-md-offset-2 fw-500 text-center text-greyish pt-25">
-        We believe that payments is a problem rooted in code, not finance. We obsessively seek out elegant, composable abstractions that enable robust, scalable, flexible integrations. Because we eliminate needless complexity and extraneous details, you can get up and running with Stripe in just a couple of minutes.
+        We believe putting the client first is essential, especially when it comes to branding. You've built your product with aspects in mind, you've constructed a reputation - let us grow that image of your brand suited to your needs, this is why we work closely with our client and always putting them at the forefront of our branding and redevelopment.
     </p>
     <div class="col-md-12 pt-50 client-article">
         <div class="col-md-4">
@@ -101,7 +101,7 @@
             <article>
                 <p class="text-darkgreen padding-no">
                     Once we've branded your product, built your super fast, super clean website - we don't stop there.
-                    Slade Guarantees lifetime support with website updates and any fixes, if required. We go the extra mile
+                    Sladehq Guarantees lifetime support with website updates and any fixes, if required. We go the extra mile
                     to ensure your brand meets today's standards.
                 </p>
             </article>
@@ -120,7 +120,7 @@
         <div class="col-md-8">
             <article>
                 <p class="text-darkgreen padding-no">
-                    A website isn't just the front end design, slade provides support for custom back end systems, ranging
+                    A website isn't just the front end design, sladehq provides support for custom back end systems, ranging
                     from simple Content Management Systems <sup>(CMS)</sup> to a freshly designed and secure e-commerce
                     platform.
                 </p>
@@ -160,7 +160,7 @@
                         <p>With a super fast, super modern and super compatible website, the possibilities are infinite.
                         You can engage with customers and clients all across the glove with the click of a few buttons,
                         let us help you scale your platform to be used anywhere at anytime.</p>
-                        <p>Using the latest technology, we at slade ensure anyone can see and use your website - we've got you covered.</p>
+                        <p>Using the latest technology, we at sladehq ensure anyone can see and use your website - we've got you covered.</p>
                     </div>
                     <div class="col-md-12 pt-5 text-left">
                         <h3 class="mt-0 fz-38 fw-600 text-purple">Find Out More <i class="fa fa-arrow-right"></i></h3>
@@ -177,7 +177,7 @@
             <img src="images/branding/slade_white.png" height="58.5" width="174" src="sladehq social network">
         </div>
         <div class="col-md-12 pt-15">
-            <p class="text-white">Slade is a playful and fun brand that doesn't take itself too seriously. That said, we're keen on keeping things quality so you always get the best you can when it comes to digital designing and branding. Contact us, any time, any place and we'll get back to you. </p>
+            <p class="text-white">Sladehq is a playful and fun brand that doesn't take itself too seriously. That said, we're keen on keeping things quality so you always get the best you can when it comes to digital designing and branding. Contact us, any time, any place and we'll get back to you. </p>
         </div>
         <div class="col-md-12 pt-50">
             <span class="pr-25"><a href="https://twitter.com/sladehq"><i class="fa fa-4x text-white fa-twitter"></i></a></span>
@@ -192,13 +192,13 @@
 
 <div class="container bottom-begin pb-50 mt-50">
     <div class="col-md-12">
-        <div class="col-md-4">
+        <div class="col-md-5">
             <h3>
                 <span class="text-purple bigtitle">Ready to get started?</span><Br>
                 <span class="font-stripe-thin text-slade bigtitle">Get in touch and we'll talk.</span>
             </h3>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-7 col-sm-12 col-xs-12">
             <span class="pull-right"><a href="/contact" class="mt-50 btn btn-group-sm fw-700 bg-purple text-white">Leave US a MEssage</a></span>
             <span class="pull-right pr-25"><a href="/support" class="ml-15 mt-50 btn btn-group-sm fw-700 bg-whiteish text-purple">Support & help desk</a></span>
         </div>
