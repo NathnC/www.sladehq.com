@@ -402,12 +402,6 @@ body {
     min-height: inherit;
 }
 
-.main-header .scroll {
-    margin-top: 270px;
-}
-
-
-
 .navbar {
     height: auto;
     position: relative;
@@ -738,8 +732,6 @@ footer {
     min-height: 315px;
     margin-bottom: 75px;
     padding-top: 50px;
-    padding-left: 400px;
-    padding-right: 400px;
     background-image: url("https://discordapp.com/assets/697e63f59d8a1e1673fd9b551f674d1f.png");
     background-size: 270px 213px;
 }

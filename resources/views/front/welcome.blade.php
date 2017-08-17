@@ -8,7 +8,7 @@
 @include('front.includes.overlay', ['heading' => 'We Brand The Product You Built', 'subheading' => 'Digital Design & Branding At Heart'])
 
 
-<div class="stats pt-100 pb-50">
+<div class="stats pt-75 pb-50">
     <div class="container pt-50 pb-50">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6">
@@ -44,7 +44,7 @@
 </div>
 
 
-<div class="container client-list full-width pb-50 mb-100 mt-50 bg-purple">
+<div class="container client-list full-width bg-purple">
     <div class="col-md-12 pt-25 pb-25 text-center">
         <div class="col-md-12 pb-25 pt-0">
             <img src="images/branding/slade_white.png" width="174" height="58.5" alt="sladehq description">
@@ -58,7 +58,7 @@
     </div>
 </div>
 
-<div class="container client-bio">
+<div class="container client-bio pt-100">
     <div class="col-md-12 text-center pt-25 bg-whiteish">
         <i class="fa fa-4x text-purple fa-street-view"></i>
     </div>
@@ -172,19 +172,21 @@
 </div>
 
 <div class="container get-social full-width bg-purple pb-50">
-    <div class="col-md-12">
-        <img src="images/branding/slade_white.png" height="58.5" width="174" src="sladehq social network">
-    </div>
-    <div class="col-md-12 pt-15">
-        <p class="text-white">Slade is a playful and fun brand that doesn't take itself too seriously. That said, we're keen on keeping things quality so you always get the best you can when it comes to digital designing and branding. Contact us, any time, any place and we'll get back to you. </p>
-    </div>
-    <div class="col-md-12 pt-50">
-        <span class="pr-25"><a href="https://twitter.com/sladehq"><i class="fa fa-4x text-white fa-twitter"></i></a></span>
-        <span class="pr-25"><a href="#"><i class="fa fa-4x text-white fa-facebook-official"></i></a></span>
-        <span class="pr-25"><a href="#"><i class="fa fa-4x text-white fa-linkedin"></i></a></span>
-        <span class="pr-25"><a href="#"><i class="fa fa-4x text-white fa-instagram"></i></a></span>
-        <span class="pr-25"><a href="#"><i class="fa fa-4x text-white fa-youtube-play"></i></a></span>
-        <span class="pull-right pt-10"><a href="{{ route('contact') }}" class="btn btn-group-sm fw-700 bg-whiteish text-purple">Contact Us</a></span>
+    <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-sm-12">
+        <div class="col-md-12">
+            <img src="images/branding/slade_white.png" height="58.5" width="174" src="sladehq social network">
+        </div>
+        <div class="col-md-12 pt-15">
+            <p class="text-white">Slade is a playful and fun brand that doesn't take itself too seriously. That said, we're keen on keeping things quality so you always get the best you can when it comes to digital designing and branding. Contact us, any time, any place and we'll get back to you. </p>
+        </div>
+        <div class="col-md-12 pt-50">
+            <span class="pr-25"><a href="https://twitter.com/sladehq"><i class="fa fa-4x text-white fa-twitter"></i></a></span>
+            <span class="pr-25"><a href="#"><i class="fa fa-4x text-white fa-facebook-official"></i></a></span>
+            <span class="pr-25"><a href="#"><i class="fa fa-4x text-white fa-linkedin"></i></a></span>
+            <span class="pr-25"><a href="#"><i class="fa fa-4x text-white fa-instagram"></i></a></span>
+            <span class="pr-25"><a href="#"><i class="fa fa-4x text-white fa-youtube-play"></i></a></span>
+            <span class="pull-right pt-10"><a href="{{ route('contact') }}" class="btn btn-group-sm fw-700 bg-whiteish text-purple">Contact Us</a></span>
+        </div>
     </div>
 </div>
 
@@ -196,9 +198,9 @@
                 <span class="font-stripe-thin text-slade bigtitle">Get in touch and we'll talk.</span>
             </h3>
         </div>
-        <div class="col-md-5 col-md-offset-3">
-            <a href="/contact" class="mt-50 btn btn-group-sm fw-700 bg-purple text-white">Leave US a MEssage</a>
-            <a href="/support" class="ml-15 mt-50 btn btn-group-sm fw-700 bg-whiteish text-purple">Support & help desk</a>
+        <div class="col-md-8">
+            <span class="pull-right"><a href="/contact" class="mt-50 btn btn-group-sm fw-700 bg-purple text-white">Leave US a MEssage</a></span>
+            <span class="pull-right pr-25"><a href="/support" class="ml-15 mt-50 btn btn-group-sm fw-700 bg-whiteish text-purple">Support & help desk</a></span>
         </div>
     </div>
 </div>

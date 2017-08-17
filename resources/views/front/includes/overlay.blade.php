@@ -1,6 +1,6 @@
 <header class="main-header">
     <div class="overlay">
-        <div class="container pt-100 pb-100">
+        <div class="container pt-100">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <img src="images/branding/slade_purple.png" class="sladehq logo">
@@ -12,14 +12,13 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="col-md-12 text-center scroll">
+            <div class="col-md-12 text-center scroll mt-100">
                 <div class="animated bounce">
                     <i class="fa fa-chevron-down"></i>
                 </div>
             </div>
         </div>
+
 
     </div>
 </header>
