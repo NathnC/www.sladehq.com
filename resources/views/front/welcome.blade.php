@@ -177,7 +177,7 @@
             <img src="images/branding/slade_white.png" height="58.5" width="174" src="sladehq social network">
         </div>
         <div class="col-md-12 pt-15">
-            <p class="text-white">Sladehq is a playful and fun brand that doesn't take itself too seriously. That said, we're keen on keeping things quality so you always get the best you can when it comes to digital designing and branding. Contact us, any time, any place and we'll get back to you. </p>
+            <p class="text-white">435345 is a playful and fun brand that doesn't take itself too seriously. That said, we're keen on keeping things quality so you always get the best you can when it comes to digital designing and branding. Contact us, any time, any place and we'll get back to you. </p>
         </div>
         <div class="col-md-10 pt-50">
             <span class="pr-25"><a href="https://twitter.com/sladehq"><i class="fa fa-4x text-white fa-twitter"></i></a></span>
