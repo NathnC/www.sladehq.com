@@ -131,8 +131,8 @@
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6 ">
                 <div class="col-md-12 rounded client-block">
-                    <div class="pb-10 col-md-12 text-left ">
-                        <div class="col-md-3 pull-left svg-header bg-slade text-center">
+                    <div class="pb-10 col-md-12 col-lg-12 col-sm-12 col-xs-12 text-left ">
+                        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 pull-left svg-header bg-slade text-center">
                             <i class="fa fa-4x fa-check-circle pt-15 text-white"></i>
                         </div>
                     </div>
@@ -179,7 +179,7 @@
         <div class="col-md-12 pt-15">
             <p class="text-white">Sladehq is a playful and fun brand that doesn't take itself too seriously. That said, we're keen on keeping things quality so you always get the best you can when it comes to digital designing and branding. Contact us, any time, any place and we'll get back to you. </p>
         </div>
-        <div class="col-md-12 pt-50">
+        <div class="col-md-10 pt-50">
             <span class="pr-25"><a href="https://twitter.com/sladehq"><i class="fa fa-4x text-white fa-twitter"></i></a></span>
             <span class="pr-25"><a href="#"><i class="fa fa-4x text-white fa-facebook-official"></i></a></span>
             <span class="pr-25"><a href="#"><i class="fa fa-4x text-white fa-linkedin"></i></a></span>
