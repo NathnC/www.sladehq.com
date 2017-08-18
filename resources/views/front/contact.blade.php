@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
-    @include('front.includes.head', ['title' => 'Contact Us & Support Centre - sladehq'])
+    @include('front.includes.head', ['title' => 'Contact Us & Support Centre - SladeHQ'])
     <body>
         @include('front.includes.nav')
 
