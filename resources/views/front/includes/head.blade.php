@@ -4,16 +4,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-        <meta name="description" content="sladehq brands the product that you built. We put the clients first to deliver excellent results virtually and phyiscally.">
-        <meta name="keywords" content="sladehq slade design branding com uk clients at heart slade hq we brand the product you built">
+        <meta name="description" content="SladeHQ is the best digital design and branding team. We deliver a hassle free experience with sensible prices on all of our projects.">
+        <meta name="keywords" content="SladeHQ is the best digital design and branding team. We deliver a hassle free experience with sensible prices on all of our projects.">
 
-        <meta property="og:title" content="sladehq">
-        <meta property="og:url" content="https://sladehq.uk">
-        <meta property="og:description" content="sladehq brands the product that you built. We put the clients first to deliver excellent results virtually and phyiscally.">
+        <meta property="og:title" content="SladeHQ">
+        <meta property="og:url" content="https://www.sladehq.com">
+        <meta property="og:description" content="SladeHQ is the best digital design and branding team. We deliver a hassle free experience with sensible prices on all of our projects.">
 
         <meta name="twitter:card" content="summary">
-        <meta name="twitter:title" content="sladehq">
-        <meta name="twitter:description" content="sladehq brands the product that you built. We put the clients first to deliver excellent results virtually and phyiscally.">
+        <meta name="twitter:title" content="SladeHQ">
+        <meta name="twitter:description" content="SladeHQ is the best digital design and branding team. We deliver a hassle free experience with sensible prices on all of our projects.">
         <!-- Other -->
         <title>
         @if(isset($title))

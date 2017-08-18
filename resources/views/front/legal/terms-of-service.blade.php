@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
-@include('front.includes.head', ['title' => 'Privacy Policy - sladehq'])
+@include('front.includes.head', ['title' => 'Privacy Policy - SladeHQ'])
 <body>
 <div class="main-wrapper" id="app">
     @include('front.includes.nav')
@@ -26,7 +26,7 @@
 
     <div class="col-md-12 pb-25 tos-box">
         <h2 class="text-darkgreen fw-300 font-stripe-thin">1.  Terms </h2>
-        <p class="font-stripe-thin pl-25 pt-25 pr-25"> By accessing the website at <a href="http://www.sladehq.com">http://www.sladehq.com</a>, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law </p>
+        <p class="font-stripe-thin pl-25 pt-25 pr-25"> By accessing the website at <a href="https://www.sladehq.com">https://www.sladehq.com</a>, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law </p>
     </div>
     <div class="col-md-12 pt-25 tos-box">
         <h2> 2. Use License </h2>

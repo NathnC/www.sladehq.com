@@ -18,6 +18,8 @@
         Route::get('/privacy', 'FrontController@privacy')->name('privacy');
         Route::get('/terms-of-service', 'FrontController@tos')->name('terms_of_service');
         Route::get('/contact', 'FrontController@contact')->name('contact');
+        //edit to portfolio
+        Route::get('/portfolio', 'FrontController@portfolio')->name('portfolio');
 
     /* Front */
 
