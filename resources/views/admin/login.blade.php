@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
-    <body style="background-color: rgb(45, 53, 80);">
-    @include('admin.includes.head', ['title' => 'Admin - Login'])
+    <body class="bg-darkpurple">
+    @include('front.includes.head', ['title' => 'Admin - Login'])
 
 
     <div class="container pt-25">
@@ -13,17 +13,17 @@
                 <form method="POST">
                     {{ csrf_field() }}
                     <div class="form-group">
-                        <label for="email" class="text-darkpurple">Email address</label>
+                        <label for="email">Email address</label>
                         <input type="email" name="email" class="form-control square-border" id="email" placeholder="Email" required>
                     </div>
                     <div class="form-group">
-                        <label for="password" class="text-darkpurple">Password</label>
+                        <label for="password">Password</label>
                         <input type="password" name="password" class="form-control square-border" id="password" placeholder="Password" required>
                     </div>
-                    <button type="submit" class="btn btn-default full-width square-border btn-darkpurple">Login</button>
+                    <button type="submit" class="btn full-width square-border btn-purple">Login</button>
                 </form>
             </div>
-            <div class="col-md-12 text-center pt-15 text-white"><i class="fa fa-copyright"></i> <span>sladehq dashboard 2017</span></div>
+            <div class="col-md-12 text-center text-white pt-15"><i class="fa phpdebugbar-fa-lock text-white"></i> Your IP ({{ $ipaddress }}) is logged for security reasons.</div>
         </div>
     </div>
 

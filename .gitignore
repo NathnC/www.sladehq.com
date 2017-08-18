@@ -4,8 +4,7 @@
 /storage/*.key
 /vendor
 /.idea
-/.idea/workplace.xml
-.idea/workplace.xml
+/.idea/workspace.xml
 /.vagrant
 Homestead.json
 Homestead.yaml

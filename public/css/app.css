@@ -82,8 +82,8 @@
 .text-tester { color: #12CC94; }
 .text-reallydarkpurple { color: #626F92; }
 .text-slade { color: #2d3550; }
-.text-white { color: #ffffff; }
-.text-whiteish { color: #cccccc; }
+.text-white { color: white; }
+.text-softgrey { color: #8898aa; }
 
 .bg-slade { background-color: #2d3550;  }
 .bg-whiteish { background-color: #f3f9f6; }
@@ -91,10 +91,13 @@
 .bg-purple { background-color: #6772e5; }
 .bg-darkpurple { background-color: rgb(45, 53, 80); }
 
+.btn-purple { background-color: rgb(45, 53, 80); color: white; border-color: rgb(45, 53, 80); }
+.btn-purple:hover { background-color: rgb(45, 53, 80); color: white; border-color: white; }
 
-.btn-darkpurple { background-color: rgb(45, 53, 80); border-color: rgb(45, 53, 80); color: white; }
-.btn-darkpurple:hover { border-color: white; background-color: rgb(45, 53, 80); color: white; }
-.btn-white { background-color: #ffffff; }
+
+.no-decoration { text-decoration: none; }
+
+
 
 
 .fw-900 { font-weight: 900; }
@@ -407,12 +410,6 @@ body {
     min-height: inherit;
 }
 
-.main-header .scroll {
-    margin-top: 270px;
-}
-
-
-
 .navbar {
     height: auto;
     position: relative;
@@ -652,6 +649,10 @@ footer {
     color: #8898aa;
 }
 
+.copyrightBackContainer a {
+    color: inherit;
+}
+
 
 .client-article p {
     margin-top: 20px;
@@ -743,8 +744,6 @@ footer {
     min-height: 315px;
     margin-bottom: 75px;
     padding-top: 50px;
-    padding-left: 400px;
-    padding-right: 400px;
     background-image: url("https://discordapp.com/assets/697e63f59d8a1e1673fd9b551f674d1f.png");
     background-size: 270px 213px;
 }
@@ -773,10 +772,9 @@ footer {
     color: rgb(45, 53, 80);
 }
 
-.get-social .btn {
-    transition: background-color 0.3s ease-in-out;
+.get-social span a {
+    transition: color 0.3s ease-in-out;
 }
-.get-social .btn:hover {
-    background-color: rgb(45, 53, 80);
-    color: white;
+.get-social span a:hover {
+    color: red;
 }
