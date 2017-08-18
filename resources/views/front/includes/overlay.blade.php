@@ -9,6 +9,10 @@
                     <div class="text-center">
                         <h1 class="heading">{{ $heading }}</h1>
                         <h4 class="heading-sub">{{ $subheading }}</h4>
+                        <h5 class="heading-sub pt-25">It's time to brand your product, build<Br>
+                                                your super fast, responsive website.<br>
+                                                We're here to help with every step.
+                        </h5>
                     </div>
                 </div>
             </div>
