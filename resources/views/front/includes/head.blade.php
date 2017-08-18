@@ -19,7 +19,7 @@
         @if(isset($title))
             {{ $title }}
         @else
-            Slade
+            SladeHQ
         @endif
         </title>
 
@@ -35,8 +35,14 @@
         <!-- Styles -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/admin.css">
+
 
         <!-- Favicon -->
         <link href="images/branding/favicon.ico" rel="icon" type="image/png" sizes="16x16">
+
+        <script src="js/pace.js"></script>
+        <link href="css/pace.css" rel="stylesheet" />
+
 
 </head>

@@ -91,6 +91,10 @@
 .bg-purple { background-color: #6772e5; }
 .bg-darkpurple { background-color: rgb(45, 53, 80); }
 
+.btn-purple { background-color: rgb(45, 53, 80); color: white; border-color: rgb(45, 53, 80); }
+.btn-purple:hover { background-color: rgb(45, 53, 80); color: white; border-color: white; }
+
+
 .no-decoration { text-decoration: none; }
 
 

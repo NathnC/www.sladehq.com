@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
-    @include('admin.includes.head', ['title' => 'Admin - Home'])
+    @include('front.includes.head', ['title' => 'Admin - Home'])
     <body>
 
     <div class="container third-width pt-25">
