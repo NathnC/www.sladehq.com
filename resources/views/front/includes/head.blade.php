@@ -44,8 +44,5 @@
         <!-- Favicon -->
         <link href="images/branding/favicon.ico" rel="icon" type="image/png" sizes="16x16">
 
-        <script src="js/pace.js"></script>
-        <link href="css/pace.css" rel="stylesheet" />
-
 
 </head>
