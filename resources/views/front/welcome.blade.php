@@ -8,8 +8,8 @@
 @include('front.includes.overlay', ['heading' => 'We Brand The Product You Built', 'subheading' => 'Digital Design & Website Development'])
 
 
-<div class="stats pt-75 pb-50">
-    <div class="container pt-50 pb-50">
+<div class="stats pt-75 pb-25">
+    <div class="container pb-50">
         <div class="row">
 
             <div class="col-lg-6 col-md-6 col-sm-6">
@@ -150,7 +150,7 @@
                         to scale with it, and keep your technology, websites and portfolio to the highest standards.</p>
                     </div>
                     <div class="col-md-12 pt-5 text-left">
-                        <h3 class="mt-0 fz-38 fw-600 text-purple">Find Out More <i class="fa fa-arrow-right"></i></h3>
+                        <a href="#"><h3 class="mt-0 fz-38 fw-600 text-purple">Find Out More <i class="fa fa-arrow-right"></i></h3></a>
                     </div>
                 </div>
             </div>
@@ -169,7 +169,7 @@
                         <p>Using the latest technology, we at SladeHQ ensure anyone can see and use your website - we've got you covered.</p>
                     </div>
                     <div class="col-md-12 pt-5 text-left">
-                        <h3 class="mt-0 fz-38 fw-600 text-purple">Find Out More <i class="fa fa-arrow-right"></i></h3>
+                        <a href="#"><h3 class="mt-0 fz-38 fw-600 text-purple">Find Out More <i class="fa fa-arrow-right"></i></h3></a>
                     </div>
                 </div>
             </div>
@@ -185,13 +185,13 @@
         <div class="col-md-12 pt-15">
             <p class="text-white">SladeHQ is a playful and fun brand that doesn't take itself too seriously. That said, we're keen on keeping things quality so you always get the best you can when it comes to digital designing and branding. Contact us, any time, any place and we'll get back to you. </p>
         </div>
-        <div class="col-md-10 pt-50">
+        <div class="col-md-12 pt-50">
             <span class="pr-25"><a href="https://twitter.com/sladehq"><i class="fa fa-4x text-white fa-twitter"></i></a></span>
             <span class="pr-25"><a href="#"><i class="fa fa-4x text-white fa-facebook-official"></i></a></span>
             <span class="pr-25"><a href="#"><i class="fa fa-4x text-white fa-linkedin"></i></a></span>
             <span class="pr-25"><a href="#"><i class="fa fa-4x text-white fa-instagram"></i></a></span>
             <span class="pr-25"><a href="#"><i class="fa fa-4x text-white fa-youtube-play"></i></a></span>
-            <span class="pull-right pt-10"><a href="{{ route('contact') }}" class="btn btn-group-sm fw-700 bg-whiteish text-purple">Contact Us</a></span>
+            <span class="pull-right pt-10"><a href="{{ route('contact') }}" class="btn btn-group-sm fw-700 bg-whiteish text-purple mr-50">Contact Us</a></span>
         </div>
     </div>
 </div>
@@ -205,8 +205,8 @@
             </h3>
         </div>
         <div class="col-md-7 col-sm-12 col-xs-12">
-            <span class="pull-right"><a href="/contact" class="mt-50 btn btn-group-sm fw-700 bg-purple text-white">Leave US a MEssage</a></span>
-            <span class="pull-right pr-25"><a href="/support" class="ml-15 mt-50 btn btn-group-sm fw-700 bg-whiteish text-purple">Support & help desk</a></span>
+            <span class="pull-right"><a href="{{ route('contact') }}" class="mt-50 btn btn-group-sm fw-700 bg-purple text-white">Leave US a MEssage</a></span>
+            <span class="pull-right pr-25"><a href="{{ route('contact') }}" class="ml-15 mt-50 btn btn-group-sm fw-700 bg-whiteish text-purple">Support & help desk</a></span>
         </div>
     </div>
 </div>

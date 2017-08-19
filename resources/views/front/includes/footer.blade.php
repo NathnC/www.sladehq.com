@@ -5,10 +5,9 @@
         <div class="col-md-10">
             <div class="col-md-3 pull-left section03 text-left">
                 <ul class="text-purple">
-                    <li><i class="fa fa-location-arrow text-purple"></i> <a class="text-purple fw-600" href="#">United Kingdom</a></li>
-                    <li><i class="fa fa-comment text-purple"></i> <a class="text-purple fw-600" href="#">English</a></li>
+                    <li><i class="fa fa-location-arrow text-purple"></i> <a class="fw-600">United Kingdom</a></li>
+                    <li><i class="fa fa-comment text-purple"></i> <a class="fw-600">English</a></li>
                 </ul>
-
             </div>
 
             <div class="col-md-3 pull-left section03 text-left">
