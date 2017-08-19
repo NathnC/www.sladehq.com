@@ -781,5 +781,5 @@ footer {
     transition: color 0.3s ease-in-out;
 }
 .get-social span a:hover {
-    color: red;
+    color: color: rgb(45, 53, 80);
 }
