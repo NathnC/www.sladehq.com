@@ -166,23 +166,17 @@
                                     <tr><th>ID</th>
                                         <th>User</th>
                                         <th>Project</th>
-                                        <th>Client</th>
-                                        <th>Deadline</th>
+                                        <th>Description</th>
+                                        <th>Minutes</th>
                                     </tr></thead>
                                     <tbody>
-                                    @foreach($projects as $proj)
+                                    @foreach($minutes as $min)
                                         <tr>
-                                            <td>{{ $proj->id }}</td>
-                                            <td>{{ $proj->name }}</td>
-                                            <td><a href="http://{!! $proj->live_url !!}">{{ $proj->live_url }}</a></td>
-                                            <td>{{ $proj->client }}</td>
-                                            <td>
-                                                @if($proj->deadline != '0000-00-00 00:00:00')
-                                                    {{ $proj->deadline }}
-                                                @else
-                                                    No Deadline
-                                                @endif
-                                            </td>
+                                            <td>{{ $min->id }}</td>
+                                            <td>{{ $min->user_id }}</td>
+                                            <td>{{ $min->project_id }}</td>
+                                            <td>{{ $min->description }}</td>
+                                            <td>{{ $min->minutes }}</td>
                                         </tr>
                                     @endforeach
                                     </tbody>
