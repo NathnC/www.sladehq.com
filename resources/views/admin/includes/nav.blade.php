@@ -1,35 +1,18 @@
-<div class="col-md-3">
-    <div class="col-md-12 pb-25 main-sidebar-header">
-        <a class="btn btn-circle-sm bg-white"><i class="fa fa-fw fa-spin fa-cog"></i> </a>
-        <span>Logged in as {{ Auth::user()->name }}</span>
+<nav class="navbar navbar-default navbar-fixed">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="{{ route('home') }}">
+                        <i class="fa fa-desktop mr-5"></i> Main Site
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ route('logout') }}">
+                        <i class="fa fa-sign-out mr-5"></i> Log out
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
-    <div class="col-md-12 pt-10 main-sidebar">
-        <ul>
-            <li>
-                <i class="fa fa-fw fa-home"></i><a>Home</a>
-            </li>
-            <li>
-                <i class="fa fa-fw phpdebugbar-fa-bar-chart"></i><a>Time</a>
-            </li>
-            <li>
-                <i class="fa fa-fw phpdebugbar-fa-users"></i><a href="members">Members</a>
-            </li>
-            <li>
-                <i class="fa fa-fw phpdebugbar-fa-archive"></i><a>Projects</a>
-            </li>
-            <li>
-                <i class="fa fa-fw phpdebugbar-fa-comment"></i><a>Suggestions</a>
-            </li>
-        </ul>
-    </div>
-    <div class="col-md-12 pt-25 main-sidebar">
-        <ul>
-            <li>
-                <i class="fa fa-fw fa-sign-out"></i><a href="logout">Logout</a>
-            </li>
-            <li>
-                <i class="fa fa-fw fa-desktop"></i><a href="/">Main Site</a>
-            </li>
-        </ul>
-    </div>
-</div>
+</nav>

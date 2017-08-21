@@ -84,6 +84,7 @@
 .text-slade { color: #2d3550; }
 .text-white { color: white; }
 .text-softgrey { color: #8898aa; }
+.text-adminpurple { color: #976bd9; }
 
 .bg-slade { background-color: #2d3550;  }
 .bg-whiteish { background-color: #f3f9f6; }
@@ -219,6 +220,7 @@ body {
     padding: 20px;
 }
 
+
 .card {
     position: relative;
     display: -webkit-box;
@@ -233,12 +235,12 @@ body {
     border-radius: 4px;
     box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
     transition: 0.3s ease-in-out;
-
 }
 
 .card:hover {
     box-shadow: 1px -1px 13px 15px rgba(50,50,93,.1), 0 3px 6px 0 rgba(45, 53, 80,5);
     background-color: rgb(45, 53, 80);
+    color: white;
 }
 
 .card p {

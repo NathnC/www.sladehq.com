@@ -38,7 +38,12 @@
         <link rel="stylesheet" href="css/admin.css">
 
 
+        <!--  Light Bootstrap Table core CSS    -->
+        <link href="../css/admin/light-bootstrap-dashboard.css" rel="stylesheet"/>
 
+        <!--     Fonts and icons     -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+        <link href="../css/admin/pe-icon-7-stroke.css" rel="stylesheet" />
         
 
         <!-- Favicon -->

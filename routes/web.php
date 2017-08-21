@@ -28,7 +28,7 @@
         Route::group(['middleware' => 'App\Http\Middleware\AdminMiddleware'], function()
         {
             Route::get('/admin', 'AdminController@index')->name('adminhome');
-            Route::get('/logout', 'Auth\LoginController@destroy');
+            Route::get('/logout', 'Auth\LoginController@destroy')->name('logout');
             /*  Nav Buttons  */
             Route::get('/admin/members', 'AdminController@members');
         });
