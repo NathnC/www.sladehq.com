@@ -26,7 +26,6 @@ class AdminController extends Controller
 
     public function login()
     {
-        $ipaddress = Request::ip();
         return view('admin.login', compact('ipaddress'));
     }
 

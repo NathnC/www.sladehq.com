@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
     <body class="bg-darkpurple">
-    @include('front.includes.head', ['title' => 'Admin - Login'])
+    @include('admin.includes.head', ['title' => 'Admin - Login'])
 
 
     <div class="container pt-25">
@@ -23,7 +23,7 @@
                     <button type="submit" class="btn full-width square-border btn-purple">Login</button>
                 </form>
             </div>
-            <div class="col-md-12 text-center text-white pt-15"><i class="fa phpdebugbar-fa-lock text-white"></i> Your IP ({{ $ipaddress }}) is logged for security reasons.</div>
+            <div class="col-md-12 text-center text-white pt-15"><i class="fa phpdebugbar-fa-lock text-white"></i> &copy; SladeHQ Dashboard</div>
         </div>
     </div>
 
