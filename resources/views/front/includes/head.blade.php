@@ -35,15 +35,19 @@
         <!-- Styles -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="css/app.css">
-        <link rel="stylesheet" href="css/admin.css">
 
 
-        <!--  Light Bootstrap Table core CSS    -->
-        <link href="../css/admin/light-bootstrap-dashboard.css" rel="stylesheet"/>
 
-        <!--     Fonts and icons     -->
-        <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
-        <link href="../css/admin/pe-icon-7-stroke.css" rel="stylesheet" />
+        @if (Request::url() === '/admin/')
+                <link rel="stylesheet" href="css/admin.css">
+                <!--  Light Bootstrap Table core CSS    -->
+                <link href="../css/admin/light-bootstrap-dashboard.css" rel="stylesheet"/>
+
+                <!--     Fonts and icons     -->
+                <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+                <link href="../css/admin/pe-icon-7-stroke.css" rel="stylesheet" />
+        @endif
+
         
 
         <!-- Favicon -->

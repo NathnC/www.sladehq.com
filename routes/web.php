@@ -27,14 +27,18 @@
     /* Admin */
         Route::group(['middleware' => 'App\Http\Middleware\AdminMiddleware'], function()
         {
-            Route::get('/admin', 'AdminController@index')->name('adminhome');
+            Route::get('/admin', 'Admin\AdminController@index')->name('adminhome');
             Route::get('/logout', 'Auth\LoginController@destroy')->name('logout');
             /*  Nav Buttons  */
-            Route::get('/admin/members', 'AdminController@members');
+            Route::get('/admin/members', 'Admin\AdminController@members')->name('adminmembers');
+
+
+            Route::get('/admin/minutes', 'Admin\MinutesController@index')->name('adminminutes');
+            Route::post('/admin/minutes', 'Admin\MinutesController@store');
         });
 
         Route::group(['middleware' => 'App\Http\Middleware\LoginMiddleware'], function() {
-            Route::get('/login', 'AdminController@login')->name('login');
+            Route::get('/login', 'Admin\AdminController@login')->name('login');
             Route::post('/login', 'Auth\LoginController@store');
         });
 

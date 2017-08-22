@@ -1,11 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
+use App\Http\Controllers\Controller;
 use App\Project;
 use App\User;
 use App\Minutes;
-use Request;
+use Illuminate\Http\Request;
 
 
 class AdminController extends Controller
@@ -32,6 +33,7 @@ class AdminController extends Controller
 
     public function members()
     {
-        return view('admin.layouts.members');
+        $members = User::orderBy('leader', 'DESC')->get();
+        return view('admin.layouts.members', compact('members'));
     }
 }

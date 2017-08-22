@@ -12,4 +12,7 @@ class Minutes extends Model
      * @var string
      */
     protected $table = 'minutes';
+    protected $fillable = [
+        'minutes', 'project_id', 'description'
+    ];
 }
