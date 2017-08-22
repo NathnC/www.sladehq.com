@@ -210,7 +210,8 @@ class ComposerStaticInit5bce5a3db341e75ac2829f1b8f0950a2
         ),
         'Illuminate\\' => 
         array (
-            0 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate',
+            0 => __DIR__ . '/../..' . '/src/Illuminate',
+            1 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate',
         ),
         'Faker\\' => 
         array (
