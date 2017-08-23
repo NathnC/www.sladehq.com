@@ -320,6 +320,7 @@ class ComposerStaticInit5bce5a3db341e75ac2829f1b8f0950a2
         'AddExtrasToUsers' => __DIR__ . '/../..' . '/database/migrations/2017_08_12_232529_add_extras_to_users.php',
         'AddProjectsTable' => __DIR__ . '/../..' . '/database/migrations/2017_08_13_154026_add_projects_table.php',
         'AddStatisticsTable' => __DIR__ . '/../..' . '/database/migrations/2017_07_31_111319_add_statistics_table.php',
+        'AddTeamsTable' => __DIR__ . '/../..' . '/database/migrations/2017_08_23_235116_add_teams_table.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Admin\\AdminController' => __DIR__ . '/../..' . '/app/Http/Controllers/Admin/AdminController.php',
