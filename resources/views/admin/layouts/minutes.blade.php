@@ -82,8 +82,8 @@
                                         <tr>
                                             <td>{{ $min->minutes }}</td>
                                             <td>{{ $min->description }}</td>
-                                            <td>{{ $min->user_id }}</td>
-                                            <td>{{ $min->project_id }}</td>
+                                            <td>{{ $min->user->forename }} {{ $min->user->surname }}</td>
+                                            <td>{{ $min->project->name }}</td>
                                             <td>{{ $min->created_at }}</td>
                                         </tr>
                                     @endforeach
