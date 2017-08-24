@@ -5,6 +5,8 @@
 public/.htaccess
 /storage/*.key
 /vendor
+/vendor/composer/*
+/vendor/composer
 /.idea
 .idea/workspace.xml
 /.idea/workspace.xml
