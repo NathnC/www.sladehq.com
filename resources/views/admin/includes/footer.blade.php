@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <nav class="pull-left">
             <p class="copyright pull-left">
-                <b>Admin Dashboard v1.04</b>
+                <b>Admin Dashboard v1.5</b>
             </p>
         </nav>
         <p class="copyright pull-right">

@@ -32,7 +32,7 @@
                 </a>
             </li>
             <li>
-                <a href="../../../../../../Downloads/x_lbd_free_v1.3.1/table.html">
+                <a href="{{ route('adminteams') }}">
                     <i class="pe-7s-id"></i>
                     <p>Teams</p>
                 </a>

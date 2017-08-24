@@ -12,4 +12,11 @@ class Team extends Model
      * @var string
      */
     protected $table = 'teams';
+
+
+
+    public function user()
+    {
+        return $this->belongsTo('App\User', 'team_id', 'id');
+    }
 }
