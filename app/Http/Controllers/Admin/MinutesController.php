@@ -23,16 +23,12 @@ class MinutesController extends Controller
 
     public function store(Request $request, Minutes $minutes)
     {
-        $this->validate($request, [
-            'project' => 'required',
-            'minutes' => 'required',
-            'desc' => 'required|max:1',
-        ]);
-
         $minutes->user_id = Auth::id();
         $minutes->project_id = $request->project;
         $minutes->minutes = $request->minutes;
         $minutes->description = $request->desc;
+
+        $minutes->save();
 
         return redirect(route('adminminutes'));
     }

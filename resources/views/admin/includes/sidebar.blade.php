@@ -37,6 +37,15 @@
                     <p>Teams</p>
                 </a>
             </li>
+
+            <li class="active active-pro">
+                <a href="{{ route('adminprofile') }}">
+                    <i>
+                        <img class="img-circle" src="https://i0.wp.com/cloud.digitalocean.com/avatars/default22.png?ssl=1" height="30" width="30">
+                    </i>
+                    <p>Profile</p>
+                </a>
+            </li>
         </ul>
     </div>
 </div>
