@@ -14,7 +14,7 @@ class AdminController extends Controller
     public function index()
     {
         $members = User::orderBy('leader', 'DESC')->get();
-        $projects = Project::where('status', 1)->get();
+        $projects = Project::where('status', '<',3)->get();
         $minutes = Minutes::get();
         $totalMinutes = 0;
         foreach ($minutes as $min)

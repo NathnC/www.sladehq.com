@@ -31,10 +31,11 @@
             Route::get('/logout', 'Auth\LoginController@destroy')->name('logout');
             /*  Nav Buttons  */
             Route::get('/admin/members', 'Admin\AdminController@members')->name('adminmembers');
-
-
+            // Minutes Page
             Route::get('/admin/minutes', 'Admin\MinutesController@index')->name('adminminutes');
             Route::post('/admin/minutes', 'Admin\MinutesController@store');
+            // Projects Page
+            Route::get('/admin/projects', 'Admin\ProjectsController@index')->name('adminprojects');
         });
 
         Route::group(['middleware' => 'App\Http\Middleware\LoginMiddleware'], function() {

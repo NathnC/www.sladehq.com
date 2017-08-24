@@ -58,7 +58,7 @@
                         <div class="card">
                             <div class="header">
                                 <h4 class="title">Projects Directory</h4>
-                                <p class="category">All active, inactive and pending projects, {{ count($projects) }} in total</p>
+                                <p class="category">All projects that are active or pending, {{ count($projects) }} in total</p>
                             </div>
                             <div class="content table-responsive table-full-width">
                                 <table class="table table-hover table-striped">

@@ -26,7 +26,7 @@
                 </a>
             </li>
             <li>
-                <a href="../../../../../../Downloads/x_lbd_free_v1.3.1/table.html">
+                <a href="{{ route('adminprojects') }}">
                     <i class="pe-7s-box2"></i>
                     <p>Projects</p>
                 </a>
