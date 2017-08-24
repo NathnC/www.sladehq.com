@@ -38,6 +38,8 @@
             Route::get('/admin/projects', 'Admin\ProjectsController@index')->name('adminprojects');
             // Teams Page
             Route::get('/admin/teams', 'Admin\TeamsController@index')->name('adminteams');
+            // Profile Page
+            Route::get('/admin/profile', 'Admin\ProfileController@index')->name('adminprofile');
         });
 
         Route::group(['middleware' => 'App\Http\Middleware\LoginMiddleware'], function() {

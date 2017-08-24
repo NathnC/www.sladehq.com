@@ -342,3 +342,8 @@ body {
     letter-spacing: .025em;
 }
 
+.sidebar .nav > li.active-pro {
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+}

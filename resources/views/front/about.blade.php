@@ -76,7 +76,7 @@
                             </div>
                             <div class="team-title text-center">
                                 <h1>Jack</h1>
-                                <h2>Operations Manager</h2>
+                                <h2>Lead Technician</h2>
                                 <hr>
 
                             </div>
