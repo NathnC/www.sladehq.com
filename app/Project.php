@@ -12,4 +12,19 @@ class Project extends Model
      * @var string
      */
     protected $table = 'projects';
+    protected $fillable = [
+        'name'
+    ];
+
+
+
+    /**
+     * Get the minutes for the project.
+     */
+    public function minutes()
+    {
+        return $this->hasMany('App\Minutes');
+    }
+
+
 }

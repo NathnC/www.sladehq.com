@@ -107,8 +107,8 @@
                                     @foreach($minutes as $min)
                                         <tr>
                                             <td>{{ $min->id }}</td>
-                                            <td>{{ $min->user_id }}</td>
-                                            <td>{{ $min->project_id }}</td>
+                                            <td>{{ $min->user->forename }} {{ $min->user->surname }}</td>
+                                            <td>{{ $min->project->name }}</td>
                                             <td>{{ $min->description }}</td>
                                             <td>{{ $min->minutes }}</td>
                                         </tr>

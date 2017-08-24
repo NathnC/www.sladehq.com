@@ -11,6 +11,7 @@ return array(
     'AddExtrasToUsers' => $baseDir . '/database/migrations/2017_08_12_232529_add_extras_to_users.php',
     'AddProjectsTable' => $baseDir . '/database/migrations/2017_08_13_154026_add_projects_table.php',
     'AddStatisticsTable' => $baseDir . '/database/migrations/2017_07_31_111319_add_statistics_table.php',
+    'AddTeamsTable' => $baseDir . '/database/migrations/2017_08_23_235116_add_teams_table.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\Http\\Controllers\\Admin\\AdminController' => $baseDir . '/app/Http/Controllers/Admin/AdminController.php',

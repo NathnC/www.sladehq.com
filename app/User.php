@@ -26,4 +26,23 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+
+    /**
+     * Get the minutes logged by user.
+     */
+    public function minutes()
+    {
+        return $this->hasMany('App\Minutes');
+    }
+
+
+    /**
+     * Get users team info
+     */
+    public function team()
+    {
+        return $this->hasOne('App\Team', 'id', 'team_id');
+    }
+
 }
