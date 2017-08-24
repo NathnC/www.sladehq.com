@@ -36,6 +36,8 @@
             Route::post('/admin/minutes', 'Admin\MinutesController@store');
             // Projects Page
             Route::get('/admin/projects', 'Admin\ProjectsController@index')->name('adminprojects');
+            // Teams Page
+            Route::get('/admin/teams', 'Admin\TeamsController@index')->name('adminteams');
         });
 
         Route::group(['middleware' => 'App\Http\Middleware\LoginMiddleware'], function() {
