@@ -35,4 +35,14 @@ class User extends Authenticatable
     {
         return $this->hasMany('App\Minutes');
     }
+
+
+    /**
+     * Get users team info
+     */
+    public function team()
+    {
+        return $this->hasOne('App\Team', 'id', 'team_id');
+    }
+
 }
