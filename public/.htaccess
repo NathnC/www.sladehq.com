@@ -1,4 +1,4 @@
-RewriteBase /slade/public
+RewriteBase /
 
 Options +FollowSymLinks
 RewriteEngine On
