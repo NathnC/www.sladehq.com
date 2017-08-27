@@ -5,7 +5,7 @@
 <div class="main-wrapper" id="app">
     @include('front.includes.nav')
 </div>
-@include('front.includes.overlay', ['heading' => 'ffffffWe Brand The Product You Built', 'subheading' => 'Digital Design & Website Development'])
+@include('front.includes.overlay', ['heading' => 'We Brand The Product You Built', 'subheading' => 'Digital Design & Website Development'])
 
 
 <div class="stats pt-75 pb-25">
