@@ -5,6 +5,8 @@
 public/.htaccess
 /storage/*.key
 /vendor
+vendor/*
+/vendor/*
 /vendor/composer/*
 /vendor/composer
 /.idea

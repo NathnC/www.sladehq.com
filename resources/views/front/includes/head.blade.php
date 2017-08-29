@@ -14,6 +14,9 @@
         <meta name="twitter:card" content="summary">
         <meta name="twitter:title" content="SladeHQ">
         <meta name="twitter:description" content="SladeHQ is the best digital design and branding team. We deliver a hassle free experience with sensible prices on all of our projects.">
+
+        <meta name="google-site-verification" content="eI2qkhfNcp8jpmGUKtgpb9NSLXkYOMzIE-2pQN87VU8" />
+
         <!-- Other -->
         <title>
         @if(isset($title))
