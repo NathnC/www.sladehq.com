@@ -174,6 +174,19 @@
                 </div>
             </div>
         </div>
+        <div class="col-md-12 text-center mt-50">
+
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- responsivead -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:728px;height:90px"
+                 data-ad-client="ca-pub-1841480199632605"
+                 data-ad-slot="3787217573"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+
+        </div>
     </div>
 </div>
 
